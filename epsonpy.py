@@ -30,5 +30,5 @@ def send(command):
 
 def source(action=""):
     if action == "?":
-        send("?")
+        query = send("SOURCE?")
     elif action
